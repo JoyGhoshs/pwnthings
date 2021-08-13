@@ -1,4 +1,4 @@
-googlesearch
+google
 random
 netaddr
 base64
