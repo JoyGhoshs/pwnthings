@@ -216,5 +216,5 @@ python3 pwnthings.py -tempmail yourusername
 As Api for your own python3 script
 ```python3
 from pwnthings import *
-tempmail('username')
+temp_mail('username')
 ```
