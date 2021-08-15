@@ -19,7 +19,7 @@ PwnThings is an swiss army knife for pentester and ctf player,Its Purely created
 * [Base64 encode/decode](#base64base32rot13)
 * [Base32 encode/decode](#base64base32rot13)
 * [rot13  encode/decode](#base64base32rot13)
-* google search from shell
+* [google search from shell](#googlesearch)
 * gtfobin search from shell
 * lolbas search from shell
 * exploit.shodan.io search from shell
