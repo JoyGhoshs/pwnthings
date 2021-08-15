@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/system00-security/pwnthings"><img src="https://i.ibb.co/NpTQHX6/S-T-T-2.png" width="200px" alt="Nuclei"></a>
+  <a href="https://github.com/system00-security/pwnthings"><img src="https://i.ibb.co/NpTQHX6/S-T-T-2.png" width="200px" alt="Pwnthings"></a>
 </h1>
 
 <h2 align="center">PwnThings</h2>
@@ -42,3 +42,34 @@ PwnThings is an swiss army knife for pentester and ctf player,Its Purely created
 * apktool decryptor/compiler
 * random proxy generator
 * encrypted pdf cracker
+
+## Base64/base32/rot13
+**encrypt/decrypt base64 with pwnthings**</br>
+
+As a Script<br/>
+**Encode**<br/>
+![base64 encode](https://i.ibb.co/GWH7h0w/pwnthingsbase64.png)<br/>
+**Decode**<br/>
+![base64 encode](https://i.ibb.co/jG7ShfQ/pwnthingsbase64d-png.png)
+
+```bash
+python3 pwnthings.py -base64e string #encrypt a plain text string to base64
+python3 pwnthings.py -base64d base64_string #decrypt base64 string
+python3 pwnthings.py -base32e string #encrypt a plain text string to base32
+python3 pwnthings.py -base32d base32_string #decrypt base32 string
+python3 pwnthings.py -rot13e string #encrypt a plain text string to rot13
+python3 pwnthings.py -base32d rot13_string #decrypt rot13 string
+```
+
+As api for your own python3 script
+```python
+from pwnthings import *
+base64_encode('yourstring') #to encrypt a regular readable string to base64
+base64_decode('yourstring') #to decrypt a base64 string
+base32_encode('yourstring') #to encrypt a regular readable string to base32
+base32_decode('yourstring') #to decrypt a base32 string
+rot13_encode('yourstring') #to encrypt a regular readable string to rot13
+rot13_decode('yourstring') #to decrypt a rot13 string
+```
+
+
