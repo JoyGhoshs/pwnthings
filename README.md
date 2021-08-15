@@ -232,7 +232,7 @@ As Api for your own python3 script
 from pwnthings import *
 random_proxy('socks/http/https')
 ```
-## pdf-crack
+## pdf-cracker
 As a script<br/>
 ![pdf-crack](https://imgur.com/CHv2WN6.png)
 
