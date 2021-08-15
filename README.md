@@ -19,29 +19,29 @@ PwnThings is an swiss army knife for pentester and ctf player,Its Purely created
 * [Base64 encode/decode](#base64base32rot13)
 * [Base32 encode/decode](#base64base32rot13)
 * [rot13  encode/decode](#base64base32rot13)
-* [google search from shell](#googlesearch)
-* gtfobin search from shell
-* lolbas search from shell
-* exploit.shodan.io search from shell
-* leakix search from shell
-* spyse cve search from shell
-* url to favihash generator
-* ip2location
-* subdomain enumerator
-* generate php simple cmd shell
-* connector for php simple cmd shell
-* host2ip
-* asnlookup with company name
-* find cve exploit by cve number from github
-* filter ip from stdin
-* filter url from stdin
-* filter email from stdin
-* listner and generator for simple python backdoor
-* temporary email address from shell
-* generate ip address from given iprange
-* apktool decryptor/compiler
-* random proxy generator
-* encrypted pdf cracker
+* [google search from shell](#google-search)
+* [gtfobin search from shell](#gtfobin)
+* [lolbas search from shell](#lolbas)
+* [exploit.shodan.io search from shell](#shodan-exploit)
+* [leakix search from shell](#leakix)
+* [spyse cve search from shell](#spyse-cve)
+* [url to favihash generator](#favico-hash)
+* [ip2location](#ip2location)
+* [subdomain enumerator](#subdomain-enumerator)
+* [generate php simple cmd shell](#php-cmd-shell)
+* [connector for php simple cmd shell](#php-cmd-shell)
+* [host2ip](#host2ip)
+* [asnlookup with company name](#asnlookup)
+* [find cve exploit by cve number from github](#git-cve)
+* [filter ip from stdin](#filter)
+* [filter url from stdin](#filter)
+* [filter email from stdin](#filter)
+* [listner and generator for simple python backdoor](#pyBackdoor)
+* [temporary email address from shell](#tempmail)
+* [generate ip address from given iprange](#iprange)
+* [apktool decryptor/compiler](#apktool)
+* [random proxy generator](#random-proxy)
+* [encrypted pdf cracker](#pdf-cracker)
 
 ## Base64/base32/rot13
 **encrypt/decrypt base64 with pwnthings**</br>
