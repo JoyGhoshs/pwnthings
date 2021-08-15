@@ -179,3 +179,16 @@ from pwnthings import *
 ip2location('yourtargetip')
 ```
 
+## Subdomain_enumerator
+As a script<br/>
+![subdomain-enum](https://imgur.com/y16w75y.png)
+
+```bash
+python3 pwnthings.py -subdomain target.com
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+passive_subdomain('target.com')
+```
