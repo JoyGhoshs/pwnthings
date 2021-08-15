@@ -192,3 +192,29 @@ As Api for your own python3 script
 from pwnthings import *
 passive_subdomain('target.com')
 ```
+## asnlookup
+As a script<br/>
+![asnlookup](https://imgur.com/EGtcGAg.png)
+
+```bash
+python3 pwnthings.py -asnlookup company_name
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+asnlookup('company_name')
+```
+## tempmail
+As a script<br/>
+![tempmail](https://imgur.com/BvXn1pi.png)
+
+```bash
+python3 pwnthings.py -tempmail yourusername
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+tempmail('username')
+```
