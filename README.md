@@ -221,7 +221,7 @@ temp_mail('username')
 
 ## random-proxy
 As a script<br/>
-![tempmail](https://imgur.com/zfLEdwe.png)
+![random-proxy](https://imgur.com/zfLEdwe.png)
 
 ```bash
 python3 pwnthings.py -randomproxy proxytype[socks/http/https]
@@ -231,4 +231,17 @@ As Api for your own python3 script
 ```python3
 from pwnthings import *
 random_proxy('socks/http/https')
+```
+## pdf-crack
+As a script<br/>
+![pdf-crack](https://imgur.com/CHv2WN6.png)
+
+```bash
+python3 pwnthings.py -pdfcrack pdf_file_name//wordlist
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+pdf_crack('filename.pdf','wordlist.txt')
 ```
