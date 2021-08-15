@@ -74,7 +74,7 @@ rot13_decode('yourstring') #to decrypt a rot13 string
 
 ## google-search
 As a Script<br/>
-![base64 encode](https://i.ibb.co/fXsmb0L/pwnthingsgoogle.png)<br/>
+![google-search](https://i.ibb.co/fXsmb0L/pwnthingsgoogle.png)<br/>
 ```bash
 python3 pwnthings.py -gsearch "Your_search"
 ```
@@ -83,5 +83,20 @@ As api for your own python3 script
 from pwnthings import *
 google_search('your_query')
 ```
+
+## gtfobin
+As a script<br/>
+![gtfobin](https://imgur.com/4iPmh4x.png)
+
+```bash
+python3 pwnthings.py -gtfobin 'bin_name'
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+gtfobin_search('bin_name')
+```
+
 
 
