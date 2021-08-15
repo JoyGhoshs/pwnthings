@@ -99,4 +99,29 @@ gtfobin_search('bin_name')
 ```
 
 
+## lolbas
+As a script<br/>
+![lolbas](https://imgur.com/4SWnrBJ.png)
 
+```bash
+python3 pwnthings.py -lobas 'bin_name'
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+lolbas_search('bin_name')
+```
+## shodan-exploit
+As a script<br/>
+![shodan-exploit](https://imgur.com/5QVbkcG.png)
+
+```bash
+python3 pwnthings.py -expshodan 'software name'
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+exploit_shodan('software name')
+```
