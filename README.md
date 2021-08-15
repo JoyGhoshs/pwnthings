@@ -140,7 +140,7 @@ leakix_search('ipaddress')
 ```
 ## spyse-cve
 As a script<br/>
-![leakix](https://imgur.com/2RZ1RYT.png)
+![spyse](https://imgur.com/2RZ1RYT.png)
 
 ```bash
 python3 pwnthings.py -spyse target_website
@@ -151,3 +151,31 @@ As Api for your own python3 script
 from pwnthings import *
 spyse_cve('ipaddress')
 ```
+## favico-hash
+As a script<br/>
+![favico](https://imgur.com/Y2sXK3h.png)
+
+```bash
+python3 pwnthings.py -favicohash https://target.com
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+favico_hash('https://target.com')
+```
+
+## ip2location
+As a script<br/>
+![ip2location](https://imgur.com/wa6fxBW.png)
+
+```bash
+python3 pwnthings.py -ip2location yourtarget_ip
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+ip2location('yourtargetip')
+```
+
