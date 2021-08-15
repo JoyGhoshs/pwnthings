@@ -218,3 +218,17 @@ As Api for your own python3 script
 from pwnthings import *
 temp_mail('username')
 ```
+
+## random-proxy
+As a script<br/>
+![tempmail](https://imgur.com/zfLEdwe.png)
+
+```bash
+python3 pwnthings.py -randomproxy proxytype[socks/http/https]
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+random_proxy('socks/http/https')
+```
