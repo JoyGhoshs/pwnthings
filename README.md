@@ -72,4 +72,16 @@ rot13_encode('yourstring') #to encrypt a regular readable string to rot13
 rot13_decode('yourstring') #to decrypt a rot13 string
 ```
 
+## google-search
+As a Script<br/>
+![base64 encode](https://i.ibb.co/fXsmb0L/pwnthingsgoogle.png)<br/>
+```bash
+python3 pwnthings.py -gsearch "Your_search"
+```
+As api for your own python3 script
+```python
+from pwnthings import *
+google_search('your_query')
+```
+
 
