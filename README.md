@@ -125,3 +125,29 @@ As Api for your own python3 script
 from pwnthings import *
 exploit_shodan('software name')
 ```
+## leakix
+As a script<br/>
+![leakix](https://imgur.com/st4D1y4.png)
+
+```bash
+python3 pwnthings.py -leakix target_ip
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+leakix_search('ipaddress')
+```
+## spyse-cve
+As a script<br/>
+![leakix](https://imgur.com/2RZ1RYT.png)
+
+```bash
+python3 pwnthings.py -spyse target_website
+```
+
+As Api for your own python3 script
+```python3
+from pwnthings import *
+spyse_cve('ipaddress')
+```
